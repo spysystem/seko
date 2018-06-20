@@ -1,0 +1,13 @@
+{
+	"name": "spysystem/Seko",
+	"description": "PHP library for Seko Web Services",
+	"license": "proprietary",
+	"require": {
+		"php": ">=7.1"
+	},
+	"autoload": {
+		"psr-4": {
+			"Seko\\": "src/"
+		}
+	}
+}
