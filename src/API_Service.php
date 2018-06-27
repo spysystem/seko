@@ -62,7 +62,7 @@ class API_Service extends \SoapClient
 	/**
 	 * @return API_Service
 	 */
-	public function Create()
+	public static function Create()
 	{
 		return new static([
 			'trace'			=> true,
